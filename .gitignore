@@ -1,0 +1,22 @@
+# dependencies
+node_modules/
+server/node_modules/
+client/node_modules/
+
+# build output
+client/dist/
+dist/
+
+# logs
+*.log
+npm-debug.log*
+
+# local data (in-memory mongo writes nothing, but keep safe)
+data.json
+
+# in-memory mongo temp dir (created at runtime)
+.mongotmp/
+
+# env
+.env
+.env.local
